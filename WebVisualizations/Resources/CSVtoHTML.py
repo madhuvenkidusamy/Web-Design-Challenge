@@ -1,0 +1,1 @@
+import pandas as pd#import csvpath = "/Users/madhuvenkidusamy/Documents/Data Science Bootcamp/Homeworks/Web-Design-Challenge/WebVisualizations/Resources/cities.csv"DF = pd.read_csv(path)html = DF.to_html()print(html)f = open("formattedhtml.txt", "a")f.write(html)f.close()
